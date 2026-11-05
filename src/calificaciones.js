@@ -6,7 +6,7 @@ function calcularPromedio(notas) {
 }
 
 function estaAprobado(promedio) {
-  return promedio >= 11;
+  return promedio > 11;
 }
 
 module.exports = { calcularPromedio, estaAprobado };
